@@ -1,0 +1,30 @@
+/* 
+======
+Global Variables
+======
+ */
+:root {
+  /* primary color */
+  --Darkcyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+  /* neutral color */
+  --Dark-gray: hsl(0, 0%, 59%);
+
+  --Font-family: "Kumbh Sans", sans-serif;
+  --Font-weight-1: 400;
+  --Font-weight-2: 700;
+  --Font-size-1: 1.125rem;
+  --Font-size-2: 0.8rem;
+
+  --Border-radius: 0.5rem;
+
+  --line-height: 1.5;
+}
+
+/* 
+======
+Main
+======
+ */
