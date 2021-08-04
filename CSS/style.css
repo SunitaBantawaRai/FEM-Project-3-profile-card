@@ -33,30 +33,27 @@ body {
   background: url(../images/bg-pattern-top.svg);
   font-family: var(--Font-family);
 }
-.main {
-  width: 90vw;
-  margin: 0 auto;
-}
 .profile-card {
   width: 90vw;
   height: auto;
   margin: 0 auto;
   display: grid;
-  place-items: center;
-  margin-top: 8rem;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 2rem;
+  margin-top: 8rem;
   border-radius: var(--Border-radius);
 }
 .bluepattern-card {
   background-image: url(../images/bg-pattern-card.svg), none;
-  width: 90vw;
-  height: 10rem;
+  width: 22rem;
+  height: 8rem;
   border-top-left-radius: var(--Border-radius);
   border-top-right-radius: var(--Border-radius);
 }
 .whitepattern-card {
   background: white;
-  width: 90vw;
+  width: 22rem;
   height: auto;
   border-bottom-left-radius: var(--Border-radius);
   border-bottom-right-radius: var(--Border-radius);
@@ -69,7 +66,8 @@ body {
   border-radius: 50%;
   position: absolute;
   top: -3.2rem;
-  transform: translate(-50%);
+  right: 50%;1025
+  transform: translate(50%);
   border: 0.4rem solid white;
 }
 .profile,
