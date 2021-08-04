@@ -30,9 +30,24 @@ Main
 ======
  */
 body {
-  background: url(../images/bg-pattern-top.svg);
   font-family: var(--Font-family);
+  background-color: var(--Darkcyan);
+  position: relative;
 }
+.top-bg,
+.bottom-bg {
+  position: fixed;
+  z-index: -1;
+}
+.top-bg {
+  bottom: 40%;
+  right: 50%;
+}
+.bottom-bg {
+  top: 40%;
+  left: 40%;
+}
+
 .profile-card {
   width: 90vw;
   height: auto;
@@ -66,7 +81,7 @@ body {
   border-radius: 50%;
   position: absolute;
   top: -3.2rem;
-  right: 50%;1025
+  right: 50%;
   transform: translate(50%);
   border: 0.4rem solid white;
 }
@@ -109,6 +124,12 @@ body {
   justify-content: space-around;
   padding: 1.5rem;
 }
+@media screen and (min-width: 1024px) {
+  .bottom-bg {
+    top: 30%;
+    left: 50%;
+  }
+}
 
 /* 
  ======
@@ -120,5 +141,5 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: white;
 }
