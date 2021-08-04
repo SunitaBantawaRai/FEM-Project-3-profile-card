@@ -32,8 +32,11 @@ Main
 body {
   font-family: var(--Font-family);
   background-color: var(--Darkcyan);
+}
+.background {
   position: relative;
 }
+
 .top-bg,
 .bottom-bg {
   position: fixed;
